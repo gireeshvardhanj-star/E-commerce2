@@ -104,8 +104,8 @@ document.addEventListener("DOMContentLoaded", () => {
       const username = document.getElementById("username").value;
       const password = document.getElementById("password").value;
 
-      const correctUser = "kanna";
-      const correctPass = "Amma@123";
+      const correctUser = "admin";
+      const correctPass = "admin";
 
       if (username === correctUser && password === correctPass) {
         clearInterval(countdown);
